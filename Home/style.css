@@ -1,0 +1,51 @@
+<style>
+        /* Estilos generales */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f5f9fc;
+            color: #333;
+        }
+
+        /* Encabezado */
+        h1 {
+            text-align: center;
+            background: #0077b6;
+            color: white;
+            padding: 20px;
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        /* Contenido */
+        p {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 15px 20px;
+            background: white;
+            border-left: 5px solid #00b4d8;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        /* Efecto hover */
+        p:hover {
+            background: #f1faff;
+            transition: 0.3s;
+        }
+
+        /* Responsivo */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+                padding: 15px;
+            }
+
+            p {
+                margin: 15px;
+                font-size: 0.95rem;
+            }
+        }
+    </style>
