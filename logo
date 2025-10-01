@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="90" viewBox="0 0 340 90" aria-labelledby="title desc" role="img">
+  <title>Logo Agencia de Viajes</title>
+  <desc>Marca con sol, ola y avión estilizado</desc>
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00b4d8"/>
+      <stop offset="1" stop-color="#0077b6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Isotipo -->
+  <g transform="translate(10,10)">
+    <!-- Sol -->
+    <circle cx="30" cy="30" r="18" fill="#ffb703"/>
+    <!-- Ola -->
+    <path d="M0,55 C12,45 28,45 40,55 C52,65 68,65 80,55" fill="none" stroke="url(#g1)" stroke-width="6" stroke-linecap="round"/>
+    <!-- Avión -->
+    <path d="M65 15 l18 -5 l-5 18 l-5 -6 l-8 8 l-4 -4 l8 -8z" fill="#023047"/>
+  </g>
+
+  <!-- Logotipo -->
+  <g transform="translate(110,24)">
+    <text x="0" y="24" font-family="Segoe UI, system-ui, sans-serif" font-weight="700" font-size="28" fill="#023047" letter-spacing="0.5">
+      Agencia de Viajes
+    </text>
+    <text x="0" y="52" font-family="Segoe UI, system-ui, sans-serif" font-size="14" fill="#0077b6">
+      Experiencias únicas a tu medida
+    </text>
+  </g>
+</svg>
