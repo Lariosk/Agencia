@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>viajes internacionales</title>
+</head>
+<body>
+    <h1>alta viajes internacionales</h1>
+    <form action="procesar_viaje.php" method="POST">
+        <labegtl for="destino">Destino:</label>
+        <input type="text" id="destino" name="destino" required><br><br>
+
+        <label for="fecha_salida">Fecha de salida:</label>
+        <input type="date" id="fecha_salida" name="fecha_salida" required><br><br>
+
+        <label for="fecha_regreso">Fecha de regreso:</label>
+        <input type="date" id="fecha_regreso" name="fecha_regreso" required><br><br>
+
+        <label for="precio">Precio:</label>
+        <input type="number" id="precio" name="precio" required><br><br>
+
+        <input type="submit" value="Agregar Viaje">
+</body>
+</html>
