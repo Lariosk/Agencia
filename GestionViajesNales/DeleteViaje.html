@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes Nacionales</title>
+</head>
+<body>
+    <h1>Eliminación de Viaje Nacionales</h1>
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de  Eliminiación de Viaje</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 400px;
+            margin: auto;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+
+        input[type="text"], 
+        input[type="date"], 
+        input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            margin-top: 20px;
+            padding: 10px;
+            width: 100%;
+            background-color: #b93d0b;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #031b2c;
+        }
+    </style>
+</head>
+<body>
+    <form action="procesar_viaje.php" method="POST">
+        <label for="destino">Destino:</label>
+        <input type="text" id="destino" name="destino" required>
+
+        <label for="fecha_salida">Fecha de salida:</label>
+        <input type="date" id="fecha_salida" name="fecha_salida" required>
+
+        <label for="fecha_regreso">Fecha de regreso:</label>
+        <input type="date" id="fecha_regreso" name="fecha_regreso" required>
+
+        <label for="precio">Precio:</label>
+        <input type="number" id="precio" name="precio" required>
+
+        <input type="submit" value="Eliminar Viaje">
+    </form>
+</body>
+</html>
+</html>
